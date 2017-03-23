@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Mi_4C_Index"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="8.192">
+  <properties />
+  
+  
+            <testcase name="IndexNoUpdate" time="4.760" classname="jiankun.com.xiaoyou.cases.XiaoYouIndex" />
+                <testcase name="verifyClickOldLoginButton" time="1.534" classname="jiankun.com.xiaoyou.cases.XiaoYouIndex" />
+                <testcase name="verifyClickNewLoginButton" time="1.898" classname="jiankun.com.xiaoyou.cases.XiaoYouIndex" />
+      
+</testsuite>

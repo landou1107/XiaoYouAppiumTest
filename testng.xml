@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite1">
+	<test name="XiaoYouAppiumTest">
+		<classes>
+			<class name="jiankun.com.xiaoyou.cases.XiaoYouIndex">
+			</class>
+		</classes>
+	</test>
+</suite>

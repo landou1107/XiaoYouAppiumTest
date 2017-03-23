@@ -1,0 +1,169 @@
+[Appium] Welcome to Appium v1.5.0
+[Appium] Non-default server args:
+[Appium]   address: '127.0.0.1'
+[Appium]   port: 6667
+[Appium]   bootstrapPort: 10000
+[Appium]   sessionOverride: true
+[Appium]   udid: 'baacc6e9'
+[Appium] Deprecated server args:
+[Appium]   -U,--udid => --default-capabilities '{"udid":"baacc6e9"}'
+[Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[Appium]   udid: 'baacc6e9'
+[Appium] Appium REST http interface listener started on 127.0.0.1:6667
+[HTTP] --> POST /wd/hub/session 
+[MJSONWP] Calling AppiumDriver.createSession() with args: [{"app":"E:\\workspace\\XiaoYouAppiumTest\\apps\\XiaoYou_Android_V5.0.0.9_201612021_0ab7227_Debug.apk","appPackage":"com.xiaoyou.alumni","noReset":...
+[Appium] Creating new AndroidDriver session
+[Appium] Capabilities:
+[Appium]   app: 'E:\\workspace\\XiaoYouAppiumTest\\apps\\XiaoYou_Android_V5.0.0.9_201612021_0ab7227_Debug.apk'
+[Appium]   appPackage: 'com.xiaoyou.alumni'
+[Appium]   noReset: 'True'
+[Appium]   noSign: 'True'
+[Appium]   deviceName: 'Mi_4C'
+[Appium]   appActivity: '.ui.main.splash.SplashActivity'
+[Appium]   newCommandTimeout: 960
+[Appium]   platformVersion: '5.1.1'
+[Appium]   browserName: ''
+[Appium]   unicodeKeyboard: 'True'
+[Appium]   udid: 'bc88febd'
+[Appium]   platformName: 'Android'
+[Appium]   resetKeyboard: 'True'
+[debug] [Appium] Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+[debug] [Appium] Capability 'noSign' changed from string to boolean. This may cause unexpected behavior
+[debug] [Appium] Capability 'unicodeKeyboard' changed from string to boolean. This may cause unexpected behavior
+[debug] [Appium] Capability 'resetKeyboard' changed from string to boolean. This may cause unexpected behavior
+[BaseDriver] Session created with session id: e0d95e5c-15f1-4916-9fdc-2f8ca5e38237
+[debug] [AndroidDriver] Getting Java version
+[AndroidDriver] Java version is: 1.8.0_73
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[debug] [ADB] Trying to find a connected android device
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[AndroidDriver] Using device: bc88febd
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe
+[debug] [ADB] Setting device id to bc88febd
+[BaseDriver] Using local app 'E:\workspace\XiaoYouAppiumTest\apps\XiaoYou_Android_V5.0.0.9_201612021_0ab7227_Debug.apk'
+[debug] [AndroidDriver] Checking whether app is actually present
+[AndroidDriver] Starting Android session
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","wait-for-device"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","echo","ping"]
+[debug] [Logcat] Starting logcat capture
+[debug] [AndroidDriver] Enabling Unicode keyboard support
+[debug] [AndroidDriver] Pushing unicode ime to device...
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","install","C:\\Users\\lishuang\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-ime\\bin\\UnicodeIME-debug.apk"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","settings","get","secure","default_input_method"]
+[debug] [AndroidDriver] Unsetting previous IME com.sohu.inputmethod.sogou.xiaomi/.SogouIME
+[debug] [AndroidDriver] Setting IME to 'io.appium.android.ime/.UnicodeIME'
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","ime","enable","io.appium.android.ime/.UnicodeIME"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","ime","set","io.appium.android.ime/.UnicodeIME"]
+[debug] [AndroidDriver] Pushing settings apk to device...
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","install","C:\\Users\\lishuang\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\io.appium.settings\\bin\\settings_apk-debug.apk"]
+[debug] [AndroidDriver] Pushing unlock helper app to device...
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","install","C:\\Users\\lishuang\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-unlock\\bin\\unlock_apk-debug.apk"]
+[ADB] Getting device platform version
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","getprop","ro.build.version.release"]
+[debug] [ADB] Uninstalling com.xiaoyou.alumni
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","am","force-stop","com.xiaoyou.alumni"]
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","uninstall","com.xiaoyou.alumni"]
+[ADB] App was uninstalled
+[AndroidDriver] Remote apk path is /data/local/tmp/889962d07b19d076bcffe49c4b11ec28.apk
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","ls","/data/local/tmp/889962d07b19d076bcffe49c4b11ec28.apk"]
+[debug] [AndroidDriver] Checking if app is installed
+[debug] [ADB] Getting install status for com.xiaoyou.alumni
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","getprop","ro.build.version.sdk"]
+[debug] [ADB] Device API level: 22
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","pm","list","packages","-3","com.xiaoyou.alumni"]
+[debug] [ADB] App is  not installed
+[AndroidDriver] Apk is not yet installed
+[AndroidDriver] installing apk from remote
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","mkdir","-p","/data/local/tmp"]
+[AndroidDriver] Clearing out any existing remote apks with the same hash
+[debug] [AndroidDriver] Removing any old apks
+[debug] [AndroidDriver] Except ["889962d07b19d076bcffe49c4b11ec28"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","ls","/data/local/tmp/*.apk"]
+[debug] [ADB] Uninstalling com.xiaoyou.alumni
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","am","force-stop","com.xiaoyou.alumni"]
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","uninstall","com.xiaoyou.alumni"]
+[ADB] App was not uninstalled, maybe it wasn't on device?
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","pm","install","-r","/data/local/tmp/889962d07b19d076bcffe49c4b11ec28.apk"]
+[AndroidDriver] Installing remote APK failed, going to uninstall and try again
+[debug] [AndroidDriver] Removing any old apks
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","ls","/data/local/tmp/*.apk"]
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","push","E:\\workspace\\XiaoYouAppiumTest\\apps\\XiaoYou_Android_V5.0.0.9_201612021_0ab7227_Debug.apk","/data/local/tmp/889962d07b19d076bcffe49c4b11ec28.apk"]
+[debug] [ADB] Uninstalling com.xiaoyou.alumni
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","am","force-stop","com.xiaoyou.alumni"]
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","uninstall","com.xiaoyou.alumni"]
+[ADB] App was not uninstalled, maybe it wasn't on device?
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","pm","install","-r","/data/local/tmp/889962d07b19d076bcffe49c4b11ec28.apk"]
+[AndroidDriver] Installing remote APK failed, going to uninstall and try again
+[debug] [AndroidDriver] Removing any old apks
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","ls","/data/local/tmp/*.apk"]
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","push","E:\\workspace\\XiaoYouAppiumTest\\apps\\XiaoYou_Android_V5.0.0.9_201612021_0ab7227_Debug.apk","/data/local/tmp/889962d07b19d076bcffe49c4b11ec28.apk"]
+[debug] [AndroidDriver] Shutting down Android driver
+[AndroidDriver] Cannot shut down Android driver; it has already shut down
+Error: This socket is closed.
+    at Socket._writeGeneric (net.js:650:19)
+    at Socket._write (net.js:702:8)
+    at doWrite (_stream_writable.js:301:12)
+    at writeOrBuffer (_stream_writable.js:287:5)
+    at Socket.Writable.write (_stream_writable.js:215:11)
+    at Socket.write (net.js:628:40)
+    at Socket.stream.write (C:\Users\lishuang\AppData\Roaming\npm\node_modules\appium\node_modules\ansi\lib\newlines.js:36:21)
+    at [object Object].Console.log (C:\Users\lishuang\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\transports\console.js:117:20)
+    at emit (C:\Users\lishuang\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\logger.js:186:17)
+    at C:\Users\lishuang\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\async\lib\async.js:157:13
+    at _each (C:\Users\lishuang\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\async\lib\async.js:57:9)
+    at Object.async.each (C:\Users\lishuang\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\async\lib\async.js:156:9)
+    at [object Object].Logger.log (C:\Users\lishuang\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\logger.js:214:9)
+    at [object Object].target.(anonymous function) [as error] (C:\Users\lishuang\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\common.js:54:18)
+    at EventEmitter.<anonymous> (lib/logsink.js:192:25)
+    at emitOne (events.js:90:13)
+    at EventEmitter.emit (events.js:182:7)
+    at EventEmitter.<anonymous> (C:\Users\lishuang\AppData\Roaming\npm\node_modules\appium\node_modules\npmlog\log.js:157:8)
+    at EventEmitter.<anonymous> (C:\Users\lishuang\AppData\Roaming\npm\node_modules\appium\node_modules\npmlog\log.js:230:21)
+    at asyncHandler$ (lib/mjsonwp.js:254:13)
+    at tryCatch (C:\Users\lishuang\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\lishuang\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (C:\Users\lishuang\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\lishuang\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at run (C:\Users\lishuang\AppData\Roaming\npm\node_modules\appium\node_modules\core-js\library\modules\es6.promise.js:104:47)
+    at C:\Users\lishuang\AppData\Roaming\npm\node_modules\appium\node_modules\core-js\library\modules\es6.promise.js:115:28
+    at flush (C:\Users\lishuang\AppData\Roaming\npm\node_modules\appium\node_modules\core-js\library\modules\$.microtask.js:19:5)
+    at _combinedTickCallback (node.js:376:9)
+    at process._tickCallback (node.js:407:11)

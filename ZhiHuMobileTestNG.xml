@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" verbose="1" parallel="tests" thread-count="3">
+	<!-- Reportng的监听器 -->
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<!-- 第一个手机的测试用例 -->
+	<test name="Motorola_X_Index">
+		<!-- appium端口号 -->
+		<parameter name="port" value="6666" />
+		<!-- 手机的udid -->
+		<parameter name="udid" value="TA09003XW3" />
+		<classes>
+			<class name="jiankun.com.xiaoyou.cases.zhiHu" />
+		</classes>
+	</test>
+
+	<!-- 第二个手机的测试用例 -->
+		<test name="OnePlus_1+_Index">
+		<!-- appium端口号 -->
+		<parameter name="port" value="6668" />
+		<!-- 手机的udid -->
+		<parameter name="udid" value="9ef118a2" />
+		<classes>
+			<class name="jiankun.com.xiaoyou.cases.zhiHu" />
+		</classes>
+	</test>
+	
+	<!-- 第三个手机的测试用例 -->
+	<test name="SAMSUNG_Galaxy_A8_Index">
+
+		<!-- appium端口号 -->
+		<parameter name="port" value="6667" />
+		<!-- 手机的udid -->
+		<parameter name="udid" value="baacc6e9" />
+		<classes>
+			<class name="jiankun.com.xiaoyou.cases.zhiHu" />
+		</classes>
+	</test>
+
+	<!-- 第四个手机的测试用例 -->
+	<test name="SAMSUNG_Note4_Index">
+
+		<!-- appium端口号 -->
+		<parameter name="port" value="6669" />
+		<!-- 手机的udid -->
+		<parameter name="udid" value="56fc6425" />
+		<classes>
+			<class name="jiankun.com.xiaoyou.cases.zhiHu" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" verbose="10" parallel="tests" thread-count="1">
+	<!-- Reportng的监听器 -->
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<!-- 第一个手机的测试用例 -->
+	<test name="SAMSUNG_Galaxy_A8_Index">
+		<!-- 手机的platformVersion -->
+		<parameter name="platformVersion" value="6.0.1" />
+		<!-- appium端口号 -->
+		<parameter name="port" value="6667" />
+		<!-- 手机的udid -->
+		<parameter name="udid" value="baacc6e9" />
+		<!-- 手机的deviceName -->
+		<parameter name="deviceName" value="SAMSUNG_Galaxy_A8" />
+		<classes>
+			<class name="jiankun.com.xiaoyou.cases.XiaoYouIndex" />
+		</classes>
+	</test>
+</suite>

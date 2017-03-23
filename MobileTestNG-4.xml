@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" verbose="2" parallel="tests" thread-count="4">
+	<!-- Reportng的监听器 -->
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<!-- 第一个手机的测试用例 -->
+	<test name="SAMSUNG_Note4_Index">
+		<!-- 手机的platformVersion -->
+		<parameter name="platformVersion" value="6.0.1" />
+		<!-- appium端口号 -->
+		<parameter name="port" value="6666" />
+		<!-- 手机的udid -->
+		<parameter name="udid" value="56fc6425" />
+		<!-- 手机的deviceName -->
+		<parameter name="deviceName" value="SAMSUNG_Note4" />
+		<classes>
+			<class name="jiankun.com.xiaoyou.cases.XiaoYouIndex" />
+		</classes>
+	</test>
+
+
+	<!-- 第二个手机的测试用例 -->
+	<test name="Mi_4C_Index">
+		<!-- 手机的platformVersion -->
+		<parameter name="platformVersion" value="5.1.1" />
+		<!-- appium端口号 -->
+		<parameter name="port" value="6667" />
+		<!-- 手机的udid -->
+		<parameter name="udid" value="bc88febd" />
+		<!-- 手机的deviceName -->
+		<parameter name="deviceName" value="Mi_4C" />
+		<classes>
+			<class name="jiankun.com.xiaoyou.cases.XiaoYouIndex" />
+		</classes>
+	</test>
+
+	<!-- 第三个手机的测试用例 -->
+	<test name="SAMSUNG_Galaxy_A8_Index">
+		<!-- 手机的platformVersion -->
+		<parameter name="platformVersion" value="6.0.1" />
+		<!-- appium端口号 -->
+		<parameter name="port" value="6668" />
+		<!-- 手机的udid -->
+		<parameter name="udid" value="baacc6e9" />
+		<!-- 手机的deviceName -->
+		<parameter name="deviceName" value="SAMSUNG_Galaxy_A8" />
+		<classes>
+			<class name="jiankun.com.xiaoyou.cases.XiaoYouIndex" />
+		</classes>
+	</test>
+	
+		<!-- 第四个手机的测试用例 -->
+	<test name="MOTO_X_Index">
+		<!-- 手机的platformVersion -->
+		<parameter name="platformVersion" value="5.1" />
+		<!-- appium端口号 -->
+		<parameter name="port" value="6669" />
+		<!-- 手机的udid -->
+		<parameter name="udid" value="TA09003XW3" />
+		<!-- 手机的deviceName -->
+		<parameter name="deviceName" value="MOTO_X_Index" />
+		<classes>
+			<class name="jiankun.com.xiaoyou.cases.XiaoYouIndex" />
+		</classes>
+	</test>
+</suite>

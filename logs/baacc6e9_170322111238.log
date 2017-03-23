@@ -1,0 +1,532 @@
+[Appium] Welcome to Appium v1.5.0
+[Appium] Non-default server args:
+[Appium]   address: '127.0.0.1'
+[Appium]   port: 6667
+[Appium]   bootstrapPort: 10000
+[Appium]   sessionOverride: true
+[Appium]   udid: 'baacc6e9'
+[Appium] Deprecated server args:
+[Appium]   -U,--udid => --default-capabilities '{"udid":"baacc6e9"}'
+[Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[Appium]   udid: 'baacc6e9'
+[Appium] Appium REST http interface listener started on 127.0.0.1:6667
+[HTTP] --> POST /wd/hub/session 
+[MJSONWP] Calling AppiumDriver.createSession() with args: [{"app":"E:\\workspace\\XiaoYouAppiumTest\\apps\\XiaoYou_Android_V5.0.0.9_201612021_0ab7227_Debug.apk","appPackage":"com.xiaoyou.alumni","noReset":...
+[Appium] Creating new AndroidDriver session
+[Appium] Capabilities:
+[Appium]   app: 'E:\\workspace\\XiaoYouAppiumTest\\apps\\XiaoYou_Android_V5.0.0.9_201612021_0ab7227_Debug.apk'
+[Appium]   appPackage: 'com.xiaoyou.alumni'
+[Appium]   noReset: 'True'
+[Appium]   noSign: 'True'
+[Appium]   deviceName: 'Mi_4C'
+[Appium]   appActivity: '.ui.main.splash.SplashActivity'
+[Appium]   newCommandTimeout: 960
+[Appium]   platformVersion: '5.1.1'
+[Appium]   browserName: ''
+[Appium]   unicodeKeyboard: 'True'
+[Appium]   udid: 'bc88febd'
+[Appium]   platformName: 'Android'
+[Appium]   resetKeyboard: 'True'
+[debug] [Appium] Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+[debug] [Appium] Capability 'noSign' changed from string to boolean. This may cause unexpected behavior
+[debug] [Appium] Capability 'unicodeKeyboard' changed from string to boolean. This may cause unexpected behavior
+[debug] [Appium] Capability 'resetKeyboard' changed from string to boolean. This may cause unexpected behavior
+[BaseDriver] Session created with session id: e81d9cb1-d472-4b4d-ae94-4991cdea6650
+[debug] [AndroidDriver] Getting Java version
+[AndroidDriver] Java version is: 1.8.0_73
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[debug] [ADB] Trying to find a connected android device
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[AndroidDriver] Using device: bc88febd
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe
+[debug] [ADB] Setting device id to bc88febd
+[BaseDriver] Using local app 'E:\workspace\XiaoYouAppiumTest\apps\XiaoYou_Android_V5.0.0.9_201612021_0ab7227_Debug.apk'
+[debug] [AndroidDriver] Checking whether app is actually present
+[AndroidDriver] Starting Android session
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","wait-for-device"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","echo","ping"]
+[debug] [Logcat] Starting logcat capture
+[debug] [AndroidDriver] Enabling Unicode keyboard support
+[debug] [AndroidDriver] Pushing unicode ime to device...
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","install","C:\\Users\\lishuang\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-ime\\bin\\UnicodeIME-debug.apk"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","settings","get","secure","default_input_method"]
+[debug] [AndroidDriver] Unsetting previous IME io.appium.android.ime/.UnicodeIME
+[debug] [AndroidDriver] Setting IME to 'io.appium.android.ime/.UnicodeIME'
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","ime","enable","io.appium.android.ime/.UnicodeIME"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","ime","set","io.appium.android.ime/.UnicodeIME"]
+[debug] [AndroidDriver] Pushing settings apk to device...
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","install","C:\\Users\\lishuang\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\io.appium.settings\\bin\\settings_apk-debug.apk"]
+[debug] [AndroidDriver] Pushing unlock helper app to device...
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","install","C:\\Users\\lishuang\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-unlock\\bin\\unlock_apk-debug.apk"]
+[ADB] Getting device platform version
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","getprop","ro.build.version.release"]
+[debug] [ADB] Uninstalling com.xiaoyou.alumni
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","am","force-stop","com.xiaoyou.alumni"]
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","uninstall","com.xiaoyou.alumni"]
+[ADB] App was not uninstalled, maybe it wasn't on device?
+[AndroidDriver] Remote apk path is /data/local/tmp/889962d07b19d076bcffe49c4b11ec28.apk
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","ls","/data/local/tmp/889962d07b19d076bcffe49c4b11ec28.apk"]
+[debug] [AndroidDriver] Checking if app is installed
+[debug] [ADB] Getting install status for com.xiaoyou.alumni
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","getprop","ro.build.version.sdk"]
+[debug] [ADB] Device API level: 22
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","pm","list","packages","-3","com.xiaoyou.alumni"]
+[debug] [ADB] App is  not installed
+[AndroidDriver] Apk is not yet installed
+[AndroidDriver] installing apk from remote
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","mkdir","-p","/data/local/tmp"]
+[AndroidDriver] Clearing out any existing remote apks with the same hash
+[debug] [AndroidDriver] Removing any old apks
+[debug] [AndroidDriver] Except ["889962d07b19d076bcffe49c4b11ec28"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","ls","/data/local/tmp/*.apk"]
+[debug] [ADB] Uninstalling com.xiaoyou.alumni
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","am","force-stop","com.xiaoyou.alumni"]
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","uninstall","com.xiaoyou.alumni"]
+[ADB] App was not uninstalled, maybe it wasn't on device?
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","pm","install","-r","/data/local/tmp/889962d07b19d076bcffe49c4b11ec28.apk"]
+[debug] [AndroidDriver] Extracting strings from apk E:\workspace\XiaoYouAppiumTest\apps\XiaoYou_Android_V5.0.0.9_201612021_0ab7227_Debug.apk null C:\Users\lishuang\AppData\Local\Temp\com.xiaoyou.alumni
+[debug] [ADB] Extracting strings for language: default
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","getprop","persist.sys.language"]
+[debug] [ADB] Current device property 'persist.sys.language': zh
+[debug] [ADB] No strings.xml for language 'zh', getting default strings.xml
+[debug] [ADB] Reading strings from converted strings.json
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","push","C:\\Users\\lishuang\\AppData\\Local\\Temp\\com.xiaoyou.alumni\\strings.json","/data/local/tmp"]
+[debug] [AndroidBootstrap] Watching for bootstrap disconnect
+[debug] [ADB] Forwarding system: 4724 to device: 4724
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","forward","tcp:4724","tcp:4724"]
+[debug] [UiAutomator] Starting UiAutomator
+[debug] [UiAutomator] Moving to state 'starting'
+[debug] [UiAutomator] Parsing uiautomator jar
+[debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","push","C:\\Users\\lishuang\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar","/data/local/tmp/"]
+[debug] [ADB] Attempting to kill all uiautomator processes
+[debug] [ADB] Getting all processes with uiautomator
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","ps","uiautomator"]
+[ADB] No uiautomator process found to kill, continuing...
+[debug] [UiAutomator] Starting UIAutomator
+[debug] [ADB] Creating ADB subprocess with args: -P, 5037, -s, bc88febd, shell, uiautomator, runtest, AppiumBootstrap.jar, -c, io.appium.android.bootstrap.Bootstrap, -e, pkg, com.xiaoyou.alumni, -e, disableAndroidWatchers, false, -e, acceptSslCerts, false
+[debug] [UiAutomator] Moving to state 'online'
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[AndroidBootstrap] Android bootstrap socket is now connected
+[debug] [ADB] Getting connected devices...
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","dumpsys","window"]
+[AndroidDriver] Screen already unlocked, doing nothing
+[debug] [ADB] Device API level: 22
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","am","start","-n","com.xiaoyou.alumni/.ui.main.splash.SplashActivity","-S","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
+[Appium] New AndroidDriver session created successfully, session e81d9cb1-d472-4b4d-ae94-4991cdea6650 added to master session list
+[MJSONWP] Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":tr...
+[HTTP] <-- POST /wd/hub/session 200 62802 ms - 1054 
+[HTTP] --> POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/timeouts/implicit_wait 
+[MJSONWP] Calling AppiumDriver.implicitWait() with args: [5000,"e81d9cb1-d472-4b4d-ae94-4991cdea6650"]
+[debug] [BaseDriver] Set implicit wait to 5000ms
+[MJSONWP] Responding to client with driver.implicitWait() result: null
+[HTTP] <-- POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/timeouts/implicit_wait 200 49 ms - 76 
+[HTTP] --> POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/timeouts/implicit_wait 
+[MJSONWP] Calling AppiumDriver.implicitWait() with args: [5000,"e81d9cb1-d472-4b4d-ae94-4991cdea6650"]
+[debug] [BaseDriver] Set implicit wait to 5000ms
+[MJSONWP] Responding to client with driver.implicitWait() result: null
+[HTTP] <-- POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/timeouts/implicit_wait 200 5 ms - 76 
+[HTTP] --> POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/timeouts/implicit_wait 
+[MJSONWP] Calling AppiumDriver.implicitWait() with args: [5000,"e81d9cb1-d472-4b4d-ae94-4991cdea6650"]
+[debug] [BaseDriver] Set implicit wait to 5000ms
+[MJSONWP] Responding to client with driver.implicitWait() result: null
+[HTTP] <-- POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/timeouts/implicit_wait 200 3 ms - 76 
+[HTTP] --> GET /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/appium/device/current_activity 
+[MJSONWP] Calling AppiumDriver.getCurrentActivity() with args: ["e81d9cb1-d472-4b4d-ae94-4991cdea6650"]
+[debug] [ADB] Getting focused package and activity
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","dumpsys","window","windows"]
+[MJSONWP] Responding to client with driver.getCurrentActivity() result: ".ui.main.splash.SplashActivity"
+[HTTP] <-- GET /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/appium/device/current_activity 200 200 ms - 104 
+[HTTP] --> POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element 
+[MJSONWP] Calling AppiumDriver.findElement() with args: ["class name","android.widget.TextView","e81d9cb1-d472-4b4d-ae94-4991cdea6650"]
+[debug] [BaseDriver] Waiting up to 5000 ms for condition
+[debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.widget.TextView","context":"","multiple":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.widget.TextView","context":"","multiple":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding android.widget.TextView using CLASS_NAME with the contextId:  multiple: false
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=0]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+[debug] [AndroidBootstrap] Received command result from bootstrap
+[MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"1"}
+[HTTP] <-- POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element 200 152 ms - 87 
+[HTTP] --> POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/elements 
+[MJSONWP] Calling AppiumDriver.findElements() with args: ["class name","android.widget.TextView","e81d9cb1-d472-4b4d-ae94-4991cdea6650"]
+[debug] [BaseDriver] Waiting up to 5000 ms for condition
+[debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.widget.TextView","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.widget.TextView","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding android.widget.TextView using CLASS_NAME with the contextId:  multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.TextView]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.TextView, INSTANCE=0]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (1)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.TextView, INSTANCE=1]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (2)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.TextView, INSTANCE=2]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (3)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.TextView, INSTANCE=3]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (4)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.TextView, INSTANCE=4]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"2"},{"ELEMENT":"3"},{"ELEMENT":"4"},{"ELEMENT":"5"}]}
+[debug] [AndroidBootstrap] Received command result from bootstrap
+[MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"2"},{"ELEMENT":"3"},{"ELEMENT":"4"},{"ELEMENT":"5"}]
+[HTTP] <-- POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/elements 200 113 ms - 137 
+[HTTP] --> GET /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element/4/text 
+[MJSONWP] Calling AppiumDriver.getText() with args: ["4","e81d9cb1-d472-4b4d-ae94-4991cdea6650"]
+[debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getText","params":{"elementId":"4"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getText","params":{"elementId":"4"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getText
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"稍后更新"}
+[debug] [AndroidBootstrap] Received command result from bootstrap
+[MJSONWP] Responding to client with driver.getText() result: "稍后更新"
+[HTTP] <-- GET /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element/4/text 200 39 ms - 86 
+[HTTP] --> POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element 
+[MJSONWP] Calling AppiumDriver.findElement() with args: ["class name","android.widget.TextView","e81d9cb1-d472-4b4d-ae94-4991cdea6650"]
+[debug] [BaseDriver] Waiting up to 5000 ms for condition
+[debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.widget.TextView","context":"","multiple":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.widget.TextView","context":"","multiple":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding android.widget.TextView using CLASS_NAME with the contextId:  multiple: false
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=0]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"6"}}
+[debug] [AndroidBootstrap] Received command result from bootstrap
+[MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"6"}
+[HTTP] <-- POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element 200 36 ms - 87 
+[HTTP] --> POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/elements 
+[MJSONWP] Calling AppiumDriver.findElements() with args: ["class name","android.widget.TextView","e81d9cb1-d472-4b4d-ae94-4991cdea6650"]
+[debug] [BaseDriver] Waiting up to 5000 ms for condition
+[debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.widget.TextView","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.widget.TextView","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding android.widget.TextView using CLASS_NAME with the contextId:  multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.TextView]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.TextView, INSTANCE=0]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (1)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.TextView, INSTANCE=1]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (2)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.TextView, INSTANCE=2]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (3)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.TextView, INSTANCE=3]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (4)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.TextView, INSTANCE=4]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"7"},{"ELEMENT":"8"},{"ELEMENT":"9"},{"ELEMENT":"10"}]}
+[debug] [AndroidBootstrap] Received command result from bootstrap
+[MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"7"},{"ELEMENT":"8"},{"ELEMENT":"9"},{"ELEMENT":"10"}]
+[HTTP] <-- POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/elements 200 147 ms - 138 
+[HTTP] --> POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element/9/click 
+[MJSONWP] Calling AppiumDriver.click() with args: ["9","e81d9cb1-d472-4b4d-ae94-4991cdea6650"]
+[debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"9"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"9"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[debug] [AndroidBootstrap] Received command result from bootstrap
+[MJSONWP] Responding to client with driver.click() result: true
+[HTTP] <-- POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element/9/click 200 3167 ms - 76 
+[HTTP] --> POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/timeouts/implicit_wait 
+[MJSONWP] Calling AppiumDriver.implicitWait() with args: [5000,"e81d9cb1-d472-4b4d-ae94-4991cdea6650"]
+[debug] [BaseDriver] Set implicit wait to 5000ms
+[MJSONWP] Responding to client with driver.implicitWait() result: null
+[HTTP] <-- POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/timeouts/implicit_wait 200 3 ms - 76 
+[HTTP] --> POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/timeouts/implicit_wait 
+[MJSONWP] Calling AppiumDriver.implicitWait() with args: [5000,"e81d9cb1-d472-4b4d-ae94-4991cdea6650"]
+[debug] [BaseDriver] Set implicit wait to 5000ms
+[MJSONWP] Responding to client with driver.implicitWait() result: null
+[HTTP] <-- POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/timeouts/implicit_wait 200 3 ms - 76 
+[HTTP] --> POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/timeouts/implicit_wait 
+[MJSONWP] Calling AppiumDriver.implicitWait() with args: [5000,"e81d9cb1-d472-4b4d-ae94-4991cdea6650"]
+[debug] [BaseDriver] Set implicit wait to 5000ms
+[MJSONWP] Responding to client with driver.implicitWait() result: null
+[HTTP] <-- POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/timeouts/implicit_wait 200 4 ms - 76 
+[HTTP] --> POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element 
+[MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.xiaoyou.alumni:id/login_btn_type_old","e81d9cb1-d472-4b4d-ae94-4991cdea6650"]
+[debug] [BaseDriver] Waiting up to 5000 ms for condition
+[debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.xiaoyou.alumni:id/login_btn_type_old","context":"","multiple":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.xiaoyou.alumni:id/login_btn_type_old","context":"","multiple":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding com.xiaoyou.alumni:id/login_btn_type_old using ID with the contextId:  multiple: false
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.xiaoyou.alumni:id/login_btn_type_old]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"11"}}
+[debug] [AndroidBootstrap] Received command result from bootstrap
+[MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"11"}
+[HTTP] <-- POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element 200 19 ms - 88 
+[HTTP] --> POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element 
+[MJSONWP] Calling AppiumDriver.findElement() with args: ["id","login_btn_type_old","e81d9cb1-d472-4b4d-ae94-4991cdea6650"]
+[debug] [BaseDriver] Waiting up to 5000 ms for condition
+[debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"login_btn_type_old","context":"","multiple":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"login_btn_type_old","context":"","multiple":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding login_btn_type_old using ID with the contextId:  multiple: false
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.xiaoyou.alumni:id/login_btn_type_old]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"12"}}
+[debug] [AndroidBootstrap] Received command result from bootstrap
+[MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"12"}
+[HTTP] <-- POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element 200 17 ms - 88 
+[HTTP] --> POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element/12/click 
+[MJSONWP] Calling AppiumDriver.click() with args: ["12","e81d9cb1-d472-4b4d-ae94-4991cdea6650"]
+[debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"12"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"12"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[debug] [AndroidBootstrap] Received command result from bootstrap
+[MJSONWP] Responding to client with driver.click() result: true
+[HTTP] <-- POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element/12/click 200 743 ms - 76 
+[HTTP] --> POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element 
+[MJSONWP] Calling AppiumDriver.findElement() with args: ["id","et_input_account","e81d9cb1-d472-4b4d-ae94-4991cdea6650"]
+[debug] [BaseDriver] Waiting up to 5000 ms for condition
+[debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"et_input_account","context":"","multiple":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"et_input_account","context":"","multiple":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding et_input_account using ID with the contextId:  multiple: false
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.xiaoyou.alumni:id/et_input_account]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"13"}}
+[debug] [AndroidBootstrap] Received command result from bootstrap
+[MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"13"}
+[HTTP] <-- POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element 200 489 ms - 88 
+[HTTP] --> GET /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element/13/text 
+[MJSONWP] Calling AppiumDriver.getText() with args: ["13","e81d9cb1-d472-4b4d-ae94-4991cdea6650"]
+[debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getText","params":{"elementId":"13"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getText","params":{"elementId":"13"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getText
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"请输入手机号\/邮箱"}
+[debug] [AndroidBootstrap] Received command result from bootstrap
+[MJSONWP] Responding to client with driver.getText() result: "请输入手机号/邮箱"
+[HTTP] <-- GET /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element/13/text 200 65 ms - 99 
+[HTTP] --> POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element 
+[MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.xiaoyou.alumni:id/et_input_account","e81d9cb1-d472-4b4d-ae94-4991cdea6650"]
+[debug] [BaseDriver] Waiting up to 5000 ms for condition
+[debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.xiaoyou.alumni:id/et_input_account","context":"","multiple":false}}
+[debug] [AndroidBootstrap] Received command result from bootstrap
+[MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"14"}
+[HTTP] <-- POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element 200 46 ms - 88 
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.xiaoyou.alumni:id/et_input_account","context":"","multiple":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding com.xiaoyou.alumni:id/et_input_account using ID with the contextId:  multiple: false
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.xiaoyou.alumni:id/et_input_account]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"14"}}
+[HTTP] --> POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/appium/device/press_keycode 
+[MJSONWP] Calling AppiumDriver.pressKeyCode() with args: [4,null,null,null,"e81d9cb1-d472-4b4d-ae94-4991cdea6650"]
+[debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"pressKeyCode","params":{"keycode":4,"metastate":null}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"pressKeyCode","params":{"keycode":4,"metastate":null}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: pressKeyCode
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[debug] [AndroidBootstrap] Received command result from bootstrap
+[MJSONWP] Responding to client with driver.pressKeyCode() result: true
+[HTTP] <-- POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/appium/device/press_keycode 200 63 ms - 76 
+[HTTP] --> POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/timeouts/implicit_wait 
+[MJSONWP] Calling AppiumDriver.implicitWait() with args: [5000,"e81d9cb1-d472-4b4d-ae94-4991cdea6650"]
+[debug] [BaseDriver] Set implicit wait to 5000ms
+[MJSONWP] Responding to client with driver.implicitWait() result: null
+[HTTP] <-- POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/timeouts/implicit_wait 200 4 ms - 76 
+[HTTP] --> POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/timeouts/implicit_wait 
+[MJSONWP] Calling AppiumDriver.implicitWait() with args: [5000,"e81d9cb1-d472-4b4d-ae94-4991cdea6650"]
+[debug] [BaseDriver] Set implicit wait to 5000ms
+[MJSONWP] Responding to client with driver.implicitWait() result: null
+[HTTP] <-- POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/timeouts/implicit_wait 200 5 ms - 76 
+[HTTP] --> POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/timeouts/implicit_wait 
+[MJSONWP] Calling AppiumDriver.implicitWait() with args: [5000,"e81d9cb1-d472-4b4d-ae94-4991cdea6650"]
+[debug] [BaseDriver] Set implicit wait to 5000ms
+[MJSONWP] Responding to client with driver.implicitWait() result: null
+[HTTP] <-- POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/timeouts/implicit_wait 200 5 ms - 76 
+[HTTP] --> POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element 
+[MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.xiaoyou.alumni:id/login_btn_type_first","e81d9cb1-d472-4b4d-ae94-4991cdea6650"]
+[debug] [BaseDriver] Waiting up to 5000 ms for condition
+[debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.xiaoyou.alumni:id/login_btn_type_first","context":"","multiple":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.xiaoyou.alumni:id/login_btn_type_first","context":"","multiple":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding com.xiaoyou.alumni:id/login_btn_type_first using ID with the contextId:  multiple: false
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.xiaoyou.alumni:id/login_btn_type_first]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"15"}}
+[debug] [AndroidBootstrap] Received command result from bootstrap
+[MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"15"}
+[HTTP] <-- POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element 200 34 ms - 88 
+[HTTP] --> GET /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element/15/displayed 
+[MJSONWP] Calling AppiumDriver.elementDisplayed() with args: ["15","e81d9cb1-d472-4b4d-ae94-4991cdea6650"]
+[debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"15"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"15"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getAttribute
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"true"}
+[debug] [AndroidBootstrap] Received command result from bootstrap
+[MJSONWP] Responding to client with driver.elementDisplayed() result: true
+[HTTP] <-- GET /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element/15/displayed 200 480 ms - 76 
+[HTTP] --> POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element 
+[MJSONWP] Calling AppiumDriver.findElement() with args: ["id","login_btn_type_first","e81d9cb1-d472-4b4d-ae94-4991cdea6650"]
+[debug] [BaseDriver] Waiting up to 5000 ms for condition
+[debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"login_btn_type_first","context":"","multiple":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"login_btn_type_first","context":"","multiple":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding login_btn_type_first using ID with the contextId:  multiple: false
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.xiaoyou.alumni:id/login_btn_type_first]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"16"}}
+[debug] [AndroidBootstrap] Received command result from bootstrap
+[MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"16"}
+[HTTP] <-- POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element 200 24 ms - 88 
+[HTTP] --> POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element/16/click 
+[MJSONWP] Calling AppiumDriver.click() with args: ["16","e81d9cb1-d472-4b4d-ae94-4991cdea6650"]
+[debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"16"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"16"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[debug] [AndroidBootstrap] Received command result from bootstrap
+[MJSONWP] Responding to client with driver.click() result: true
+[HTTP] <-- POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element/16/click 200 518 ms - 76 
+[HTTP] --> POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element 
+[MJSONWP] Calling AppiumDriver.findElement() with args: ["id","tv_title","e81d9cb1-d472-4b4d-ae94-4991cdea6650"]
+[debug] [BaseDriver] Waiting up to 5000 ms for condition
+[debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"tv_title","context":"","multiple":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"tv_title","context":"","multiple":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding tv_title using ID with the contextId:  multiple: false
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.xiaoyou.alumni:id/tv_title]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"17"}}
+[debug] [AndroidBootstrap] Received command result from bootstrap
+[MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"17"}
+[HTTP] <-- POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element 200 620 ms - 88 
+[HTTP] --> GET /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element/17/text 
+[MJSONWP] Calling AppiumDriver.getText() with args: ["17","e81d9cb1-d472-4b4d-ae94-4991cdea6650"]
+[debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getText","params":{"elementId":"17"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getText","params":{"elementId":"17"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getText
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"首次登录"}
+[debug] [AndroidBootstrap] Received command result from bootstrap
+[MJSONWP] Responding to client with driver.getText() result: "首次登录"
+[HTTP] <-- GET /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element/17/text 200 41 ms - 86 
+[HTTP] --> POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element 
+[MJSONWP] Calling AppiumDriver.findElement() with args: ["id","tv_title","e81d9cb1-d472-4b4d-ae94-4991cdea6650"]
+[debug] [BaseDriver] Waiting up to 5000 ms for condition
+[debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"tv_title","context":"","multiple":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"tv_title","context":"","multiple":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding tv_title using ID with the contextId:  multiple: false
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.xiaoyou.alumni:id/tv_title]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"18"}}
+[debug] [AndroidBootstrap] Received command result from bootstrap
+[MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"18"}
+[HTTP] <-- POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element 200 33 ms - 88 
+[HTTP] --> GET /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element/18/text 
+[MJSONWP] Calling AppiumDriver.getText() with args: ["18","e81d9cb1-d472-4b4d-ae94-4991cdea6650"]
+[debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getText","params":{"elementId":"18"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getText","params":{"elementId":"18"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getText
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"首次登录"}
+[debug] [AndroidBootstrap] Received command result from bootstrap
+[MJSONWP] Responding to client with driver.getText() result: "首次登录"
+[HTTP] <-- GET /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/element/18/text 200 24 ms - 86 
+[HTTP] --> POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/appium/device/press_keycode 
+[MJSONWP] Calling AppiumDriver.pressKeyCode() with args: [4,null,null,null,null,null,"e81d9cb1-d472-4b4d-ae94-4991cdea6650"]
+[debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"pressKeyCode","params":{"keycode":4,"metastate":null}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"pressKeyCode","params":{"keycode":4,"metastate":null}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: pressKeyCode
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[debug] [AndroidBootstrap] Received command result from bootstrap
+[MJSONWP] Responding to client with driver.pressKeyCode() result: true
+[HTTP] <-- POST /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650/appium/device/press_keycode 200 36 ms - 76 
+[HTTP] --> DELETE /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650 
+[MJSONWP] Calling AppiumDriver.deleteSession() with args: ["e81d9cb1-d472-4b4d-ae94-4991cdea6650"]
+[debug] [AndroidDriver] Shutting down Android driver
+[debug] [AndroidDriver] Resetting IME to io.appium.android.ime/.UnicodeIME
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","ime","set","io.appium.android.ime/.UnicodeIME"]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","am","force-stop","com.xiaoyou.alumni"]
+[debug] [ADB] Pressing the HOME button
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","input","keyevent",3]
+[debug] [Logcat] Stopping logcat capture
+[debug] [AndroidBootstrap] Sending command to android: {"cmd":"shutdown"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+[debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: numtests=1
+[debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=.
+[debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+[debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+[debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+[debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: current=1
+[debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: 0
+[debug] [AndroidBootstrap] Received command result from bootstrap
+[debug] [UiAutomator] Shutting down UiAutomator
+[debug] [UiAutomator] Moving to state 'stopping'
+[debug] [UiAutomator] UiAutomator shut down normally
+[debug] [UiAutomator] Moving to state 'stopped'
+[debug] [ADB] Attempting to kill all uiautomator processes
+[debug] [ADB] Getting all processes with uiautomator
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 4 device(s) connected
+[debug] [ADB] Running E:\Android\adt-bundle-windows-x86_64-20160318\sdk\platform-tools\adb.exe with args: ["-P",5037,"-s","bc88febd","shell","ps","uiautomator"]
+[ADB] No uiautomator process found to kill, continuing...
+[debug] [UiAutomator] Moving to state 'stopped'
+[Appium] Removing session e81d9cb1-d472-4b4d-ae94-4991cdea6650 from our master session list
+[debug] [MJSONWP] Received response: null
+[debug] [MJSONWP] But deleting session, so not returning
+[MJSONWP] Responding to client with driver.deleteSession() result: null
+[HTTP] <-- DELETE /wd/hub/session/e81d9cb1-d472-4b4d-ae94-4991cdea6650 200 2174 ms - 76 

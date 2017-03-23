@@ -1,0 +1,12 @@
+[Appium] Welcome to Appium v1.5.0
+[Appium] Non-default server args:
+[Appium]   address: '127.0.0.1'
+[Appium]   port: 6667
+[Appium]   bootstrapPort: 10000
+[Appium]   sessionOverride: true
+[Appium]   udid: 'TA09003XW3'
+[Appium] Deprecated server args:
+[Appium]   -U,--udid => --default-capabilities '{"udid":"TA09003XW3"}'
+[Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[Appium]   udid: 'TA09003XW3'
+[Appium] Appium REST http interface listener started on 127.0.0.1:6667

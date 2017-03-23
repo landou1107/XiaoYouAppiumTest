@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16599" started-at="2017-03-22T03:16:48Z" finished-at="2017-03-22T03:17:04Z">
+    <groups>
+    </groups>
+    <test name="Mi_4C_Index" duration-ms="10580" started-at="2017-03-22T03:16:48Z" finished-at="2017-03-22T03:16:58Z">
+      <class name="jiankun.com.xiaoyou.cases.XiaoYouIndex">
+        <test-method status="PASS" signature="IndexNoUpdate()[pri:0, instance:jiankun.com.xiaoyou.cases.XiaoYouIndex@942a29c]" name="IndexNoUpdate" duration-ms="4760" started-at="2017-03-22T11:16:48Z" finished-at="2017-03-22T11:16:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IndexNoUpdate -->
+        <test-method status="PASS" signature="verifyClickOldLoginButton()[pri:0, instance:jiankun.com.xiaoyou.cases.XiaoYouIndex@942a29c]" name="verifyClickOldLoginButton" duration-ms="1534" started-at="2017-03-22T11:16:53Z" finished-at="2017-03-22T11:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickOldLoginButton -->
+        <test-method status="PASS" signature="verifyClickNewLoginButton()[pri:0, instance:jiankun.com.xiaoyou.cases.XiaoYouIndex@942a29c]" name="verifyClickNewLoginButton" duration-ms="1898" started-at="2017-03-22T11:16:54Z" finished-at="2017-03-22T11:16:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickNewLoginButton -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:jiankun.com.xiaoyou.cases.XiaoYouIndex@942a29c]" name="afterClass" is-config="true" duration-ms="2179" started-at="2017-03-22T11:16:56Z" finished-at="2017-03-22T11:16:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- jiankun.com.xiaoyou.cases.XiaoYouIndex -->
+    </test> <!-- Mi_4C_Index -->
+    <test name="SAMSUNG_Note4_Index" duration-ms="12944" started-at="2017-03-22T03:16:48Z" finished-at="2017-03-22T03:17:01Z">
+      <class name="jiankun.com.xiaoyou.cases.XiaoYouIndex">
+        <test-method status="PASS" signature="IndexNoUpdate()[pri:0, instance:jiankun.com.xiaoyou.cases.XiaoYouIndex@27462a88]" name="IndexNoUpdate" duration-ms="4694" started-at="2017-03-22T11:16:48Z" finished-at="2017-03-22T11:16:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IndexNoUpdate -->
+        <test-method status="PASS" signature="verifyClickOldLoginButton()[pri:0, instance:jiankun.com.xiaoyou.cases.XiaoYouIndex@27462a88]" name="verifyClickOldLoginButton" duration-ms="1392" started-at="2017-03-22T11:16:53Z" finished-at="2017-03-22T11:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickOldLoginButton -->
+        <test-method status="PASS" signature="verifyClickNewLoginButton()[pri:0, instance:jiankun.com.xiaoyou.cases.XiaoYouIndex@27462a88]" name="verifyClickNewLoginButton" duration-ms="1815" started-at="2017-03-22T11:16:54Z" finished-at="2017-03-22T11:16:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickNewLoginButton -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:jiankun.com.xiaoyou.cases.XiaoYouIndex@27462a88]" name="afterClass" is-config="true" duration-ms="4770" started-at="2017-03-22T11:16:56Z" finished-at="2017-03-22T11:17:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- jiankun.com.xiaoyou.cases.XiaoYouIndex -->
+    </test> <!-- SAMSUNG_Note4_Index -->
+    <test name="MOTO_X_Index" duration-ms="13255" started-at="2017-03-22T03:16:48Z" finished-at="2017-03-22T03:17:01Z">
+      <class name="jiankun.com.xiaoyou.cases.XiaoYouIndex">
+        <test-method status="PASS" signature="IndexNoUpdate()[pri:0, instance:jiankun.com.xiaoyou.cases.XiaoYouIndex@51c668e3]" name="IndexNoUpdate" duration-ms="7546" started-at="2017-03-22T11:16:48Z" finished-at="2017-03-22T11:16:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IndexNoUpdate -->
+        <test-method status="PASS" signature="verifyClickOldLoginButton()[pri:0, instance:jiankun.com.xiaoyou.cases.XiaoYouIndex@51c668e3]" name="verifyClickOldLoginButton" duration-ms="1294" started-at="2017-03-22T11:16:55Z" finished-at="2017-03-22T11:16:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickOldLoginButton -->
+        <test-method status="PASS" signature="verifyClickNewLoginButton()[pri:0, instance:jiankun.com.xiaoyou.cases.XiaoYouIndex@51c668e3]" name="verifyClickNewLoginButton" duration-ms="1998" started-at="2017-03-22T11:16:57Z" finished-at="2017-03-22T11:16:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickNewLoginButton -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:jiankun.com.xiaoyou.cases.XiaoYouIndex@51c668e3]" name="afterClass" is-config="true" duration-ms="2269" started-at="2017-03-22T11:16:59Z" finished-at="2017-03-22T11:17:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- jiankun.com.xiaoyou.cases.XiaoYouIndex -->
+    </test> <!-- MOTO_X_Index -->
+    <test name="SAMSUNG_Galaxy_A8_Index" duration-ms="16597" started-at="2017-03-22T03:16:48Z" finished-at="2017-03-22T03:17:04Z">
+      <class name="jiankun.com.xiaoyou.cases.XiaoYouIndex">
+        <test-method status="PASS" signature="IndexNoUpdate()[pri:0, instance:jiankun.com.xiaoyou.cases.XiaoYouIndex@5e600dd5]" name="IndexNoUpdate" duration-ms="4716" started-at="2017-03-22T11:16:48Z" finished-at="2017-03-22T11:16:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IndexNoUpdate -->
+        <test-method status="PASS" signature="verifyClickOldLoginButton()[pri:0, instance:jiankun.com.xiaoyou.cases.XiaoYouIndex@5e600dd5]" name="verifyClickOldLoginButton" duration-ms="1963" started-at="2017-03-22T11:16:53Z" finished-at="2017-03-22T11:16:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickOldLoginButton -->
+        <test-method status="PASS" signature="verifyClickNewLoginButton()[pri:0, instance:jiankun.com.xiaoyou.cases.XiaoYouIndex@5e600dd5]" name="verifyClickNewLoginButton" duration-ms="4275" started-at="2017-03-22T11:16:55Z" finished-at="2017-03-22T11:16:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickNewLoginButton -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:jiankun.com.xiaoyou.cases.XiaoYouIndex@5e600dd5]" name="afterClass" is-config="true" duration-ms="5396" started-at="2017-03-22T11:16:59Z" finished-at="2017-03-22T11:17:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- jiankun.com.xiaoyou.cases.XiaoYouIndex -->
+    </test> <!-- SAMSUNG_Galaxy_A8_Index -->
+  </suite> <!-- Suite -->
+</testng-results>

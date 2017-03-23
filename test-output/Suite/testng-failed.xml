@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" verbose="10" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="port" value="6669"/>
+  <parameter name="platformVersion" value="5.1"/>
+  <parameter name="udid" value="TA09003XW3"/>
+  <parameter name="deviceName" value="MOTO_X_Index"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="SAMSUNG_Note4_Index(failed)" parallel="tests">
+    <parameter name="port" value="6666"/>
+    <parameter name="platformVersion" value="6.0.1"/>
+    <parameter name="udid" value="56fc6425"/>
+    <parameter name="deviceName" value="SAMSUNG_Note4"/>
+    <classes>
+      <class name="jiankun.com.xiaoyou.cases.XiaoYouIndex">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterClass"/>
+          <include name="afterClass"/>
+          <include name="afterClass"/>
+          <include name="verifyClickOldLoginButton"/>
+          <include name="verifyClickNewLoginButton"/>
+          <include name="IndexNoUpdate"/>
+        </methods>
+      </class> <!-- jiankun.com.xiaoyou.cases.XiaoYouIndex -->
+    </classes>
+  </test> <!-- SAMSUNG_Note4_Index(failed) -->
+</suite> <!-- Failed suite [Suite] -->
